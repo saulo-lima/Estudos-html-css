@@ -1,0 +1,48 @@
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            background-color: #f4f4f4;
+            line-height: 1.6;
+        }
+        p{
+        margin-bottom:40px;
+        }
+        h2{
+            font-size: 32px;
+        }
+        img{
+            width: 510px;
+            height: auto;
+           display: block;
+            margin: auto;
+            border-radius: 15px;
+                  box-shadow:0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+        .feb{
+            width: 500px;
+            height: auto;
+           display: block;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow:0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+        .pxm{
+            font-size: 18px;
+        }
+        .pxmm{
+            font-size: 14px;
+        }
+        h1{
+            text-align: center;
+            font-size: 40px;
+        }
+        main{
+        max-width: 800px;
+        margin: auto;
+         padding: 20px;
+        }
+        ol, ul, dl{
+        margin-bottom: 30px;
+        }
+        
