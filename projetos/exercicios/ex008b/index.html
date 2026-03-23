@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte e Pré-formatação</h2>
+    <p>o comando <code>document.getElementById('teste')</code> é escrito na linguagem JavaScript </p>
+    <!--copiei sei entender nada-->
+    <pre>
+        <code>
+num= int(input('Digite um número'))
+if num % 2 == 0:
+    print(f'O número {num} é PAR')
+else:
+    print(f'o número {num} é ÍMPAR')
+print('Fim do programa')
+        </code>
+    </pre>
+    <!--a tag code deixa em monoespaço, a tag pre quebrar linha de acordo eu quebro, shift+tab encosta o texto ao canto, e apenas tab desencosta-->
+    <h2>Citações</h2>
+    <p>como diria meu professor Gilvanio: <q>Se ele que é formado em letras e professor a 10 anos e ja leu o livro 3 vezes não consegue falar mal dos livros de machado de assis, um aluno que nem completou o livro não pode falar mal</q></p>
+    <!--use <q> para citações-->
+        <h2>Citações completas</h2>
+        <p>Segundo Charles Chaplin:</p>
+        <blockquote cite="https://www.pensador.com/citacoes/#:~:text=Creio%20no%20riso%20e%20nas%20l%C3%A1grimas%20como%20ant%C3%ADdotos%20contra%20o%20%C3%B3dio%20e%20o%20terror.">
+            Creio no riso e nas lágrimas como antídotos contra o ódio e o terror.
+        </blockquote>
+        <!--isso de cite não é um link, é apenas para manter os direitos-->
+        <h2>Abreviações</h2>
+        <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou me divertindo</p>
+        <!--isso tambem não é um link, é apenas para mostra oq aquela abreviação significa, ex:IBGE,ENEM,SISU,SUS,CPF,CNPJ-->
+        <h2>texto invertido</h2>
+        <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
+        <!--invertido, kkk que bagulho de louco quem usa isso 2.0?-->
+</body>
+</html>
