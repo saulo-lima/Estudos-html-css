@@ -27,11 +27,17 @@
             background-color: rgb(66, 66, 66);
             color: white;
         }
+        thead > tr >th{
+            position: sticky;
+            top: -1px;
+            background-color: rgb(66, 66, 66);
+        }
         tbody > tr:nth-child(2n){
-            background-color: rgb(182, 182, 182);
+            background-color: rgb(217, 217, 217);
         }
         td{
             border:1px solid black;
+            padding: 5px;
         }
         .num{
             text-align: right;
@@ -43,8 +49,10 @@
     <table>
         <caption>População dos estados brasileiros</caption>
         <thead>
-            <th scope="col">Estado</th>
-            <th slot="col" style="width:100px;">População</th>
+            <tr>
+                <th scope="col">Estado</th>
+                <th slot="col" style="width:100px;">População</th>
+            </tr>
         </thead>
         <tbody>
              <tr>
