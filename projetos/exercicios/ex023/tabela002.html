@@ -27,6 +27,9 @@
             background-color: rgb(66, 66, 66);
             color: white;
         }
+        tbody > tr:nth-child(2n){
+            background-color: rgb(182, 182, 182);
+        }
         td{
             border:1px solid black;
         }
@@ -41,7 +44,7 @@
         <caption>População dos estados brasileiros</caption>
         <thead>
             <th scope="col">Estado</th>
-            <th slot="col">População</th>
+            <th slot="col" style="width:100px;">População</th>
         </thead>
         <tbody>
              <tr>
