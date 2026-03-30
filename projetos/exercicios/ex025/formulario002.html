@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de controles</title>
+</head>
+<body>
+    <h1>Tipos de input </h1>
+    <!--email, password, text-->
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <p><label for="idus">Usuário:</label>
+            <input type="text" name="us" id="idus" required minlength="5" maxlength="30" size="10" placeholder="Nome" autocomplete="username">
+        </p>
+        <p>
+            <label for="idpassword">Senha:</label>
+            <input type="password" name="password" id="idpassword" required minlength="8" placeholder="senha" autocomplete="current-password">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
