@@ -9,6 +9,7 @@
 
 html, body {
     background-color: lightgray;
+    line-height: 1.1em;
 }
 
 header {
@@ -70,5 +71,5 @@ article > h2 {
 
 article > p{
     text-align: justify;
-    margin-bottom: 10px;
+    padding-bottom: 15px;
 }

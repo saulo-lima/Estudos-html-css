@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+
+    span#menu {
+        display: none;
+    }
+    
+    menu {
+        display: block;
+    }
+    menu > ul >li {
+         display: inline-block;
+         
+    }
+
+    menu > ul > li >a {
+        border-top: none;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    main {
+        width: 768px;
+    }
+    
+}

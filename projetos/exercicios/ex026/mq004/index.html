@@ -6,9 +6,10 @@
     <title>Media Query</title>
    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/global.css">
     
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>
             My site
@@ -25,7 +26,7 @@
         </menu>
     </header>
     <main>
-        <section>
+        <article>
             <h2>Testing Media Queries</h2>
 
             <p>
@@ -37,7 +38,7 @@
                <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est dicta earum similique et consequatur atque deleniti minima veritatis nemo eveniet, voluptas totam inventore blanditiis, explicabo, tempora dolorum? Eius, expedita totam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde reiciendis aliquid sed minima minus eos! Distinctio non fuga facere numquam ipsam unde autem consectetur molestiae expedita. Consectetur facilis sequi iste. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem perspiciatis suscipit magnam, facilis sit laborum repellat quae optio doloribus excepturi enim corporis, rerum consequatur fuga sequi minima nemo nam voluptatibus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, adipisci sed eos maxime illum dignissimos voluptate maiores veritatis optio nisi iure et eligendi magnam? Deleniti alias sint vero debitis expedita.
             </p>
-        </section>
+        </article>
     </main>
     <script>
         function clickMenu() {
@@ -46,6 +47,15 @@
             } else {
                 itens.style.display = 'block'
             }
+        }
+
+        function mudouTamanho() {
+            if(window.innerWidth >= 768){
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+
         }
     </script>
 </body>
