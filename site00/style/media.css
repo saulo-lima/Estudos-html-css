@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+
+   header > span#menuID {
+        display: none;
+    }
+    
+    menu#itens {
+        display: block;
+    }
+
+    menu#itens > ul > li {
+        display: inline-block;
+         border-top: none;
+    }
+
+    menu#itens > ul > li > a {
+       padding: 5px 10px;
+    }
+
+        .projetos {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    main {
+        width: 768px;
+    }
+
+        .projetos {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
